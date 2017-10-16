@@ -1,0 +1,119 @@
+body {
+	font: 12px '微软雅黑', '宋体', tahoma, Srial, helvetica, sans-serif;background:#F9F9F9
+}
+.ui-page { 
+background: #F9F9F9;
+}
+#totalNum {
+	font-size: 21px;
+	font-family: "Microsoft YaHei", "SimHei", "SimSun";
+	position: absolute;
+	right: 2px;
+	bottom: 74px;
+	display: block;
+	color: #696969;
+	padding:0;
+	margin: 0;
+}
+#ifooter{
+	height:90px;
+}
+
+#currentNum {
+	color: #333333
+}
+
+#description {
+	padding-left: 5px;
+	padding-bottom:10px;
+}
+
+h2 {font-size:12px; padding:0; color:gray; margin:0 0 2px 1%}
+
+.button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    font:20px/normal "HiraginoSansGB W3",微软雅黑,sans-serif;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -moz-background-clip: padding; /* for Firefox 3.6 */
+    background-clip: padding-box;
+    border-radius: 0.2em;
+    /* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+
+
+#moreimages {
+	background-color: #ccc;
+	Z-index: 10000;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	display:none;
+	background: none repeat scroll 0% 0% #27282A;
+}
+
+
+#moreimageclose {
+    width: 40px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    text-indent: -9999em;
+    background: url('http://zhbj.qianlong.com/images/closemore.jpg') no-repeat scroll 0% 0% transparent;
+    z-index: 1;
+}
+
+#moreheader{
+	font:13pt/normal "HiraginoSansGB W3",微软雅黑,sans-serif;
+	text-align:center;
+	padding:0 0 2px 0;
+	width:100%;
+	color: #ffffff;
+	text-shadow:none;
+}
+
+.moretitle{
+	font:10pt/normal "HiraginoSansGB W3",微软雅黑,sans-serif;
+	text-align:center;
+	color: #ffffff;
+	text-shadow:none;
+}
+
+
+.moretitlep{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+	font:9pt/normal "HiraginoSansGB W3",微软雅黑,sans-serif;
+	text-align: left;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-shadow:none;
+}
